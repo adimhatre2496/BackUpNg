@@ -1,0 +1,13 @@
+
+  {
+    "firstName": "firstName",
+    "lastName": "lastName",
+    "addressEntity":
+    {
+      "addressOne": "address1",
+      "addressTwo": "address2",
+      "city": "city",
+      "state": "state",
+      "zipCode": "zipcode"
+    }
+  }

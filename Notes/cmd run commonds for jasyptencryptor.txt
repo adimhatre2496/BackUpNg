@@ -1,0 +1,4 @@
+cmd run commonds for jasyptencryptor
+mvn clean install -Djasypt.encryptor.password=secert-key
+
+java -Djasypt.encryptor.password=secert-key -jar target\jasyptencryption-0.0.1-SNAPSHOT.jar

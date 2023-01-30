@@ -1,0 +1,519 @@
+2022-12-07T11:00:53.528+05:30  INFO 10452 --- [main] c.e.r.RestserviceApplicationTests        : Starting RestserviceApplicationTests using Java 19 with PID 10452 (started by CA-User in D:\NGPay\Task\twoServiceRest\restservice)
+2022-12-07T11:00:53.530+05:30  INFO 10452 --- [main] c.e.r.RestserviceApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2022-12-07T11:00:54.340+05:30  INFO 10452 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-07T11:00:54.445+05:30  INFO 10452 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 91 ms. Found 2 JPA repository interfaces.
+2022-12-07T11:00:55.006+05:30  INFO 10452 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-07T11:00:55.077+05:30  INFO 10452 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.5.Final
+2022-12-07T11:00:55.262+05:30  WARN 10452 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2022-12-07T11:00:55.508+05:30  INFO 10452 --- [main] com.zaxxer.hikari.HikariDataSource       : RestConnent - Starting...
+2022-12-07T11:00:55.760+05:30  INFO 10452 --- [main] com.zaxxer.hikari.pool.HikariPool        : RestConnent - Added connection org.postgresql.jdbc.PgConnection@71531dd7
+2022-12-07T11:00:55.763+05:30  INFO 10452 --- [main] com.zaxxer.hikari.HikariDataSource       : RestConnent - Start completed.
+2022-12-07T11:00:55.834+05:30  INFO 10452 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-12-07T11:00:57.079+05:30  INFO 10452 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-07T11:00:57.091+05:30  INFO 10452 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-07T11:00:57.719+05:30  WARN 10452 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-07T11:00:58.123+05:30  INFO 10452 --- [main] c.e.r.RestserviceApplicationTests        : Started RestserviceApplicationTests in 5.019 seconds (process running for 6.187)
+2022-12-07T11:00:58.463+05:30  INFO 10452 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-07T11:00:58.469+05:30  INFO 10452 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : RestConnent - Shutdown initiated...
+2022-12-07T11:00:58.478+05:30  INFO 10452 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : RestConnent - Shutdown completed.
+2022-12-07T11:01:11.996+05:30  INFO 13212 --- [main] c.e.restservice.RestserviceApplication   : Starting RestserviceApplication v0.0.1-SNAPSHOT using Java 19 with PID 13212 (D:\NGPay\Task\twoServiceRest\restservice\target\restservice-0.0.1-SNAPSHOT.jar started by CA-User in D:\NGPay\Task\twoServiceRest\restservice)
+2022-12-07T11:01:12.001+05:30  INFO 13212 --- [main] c.e.restservice.RestserviceApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-12-07T11:01:13.082+05:30  INFO 13212 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-07T11:01:13.170+05:30  INFO 13212 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 75 ms. Found 2 JPA repository interfaces.
+2022-12-07T11:01:13.936+05:30  INFO 13212 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8989 (http)
+2022-12-07T11:01:13.948+05:30  INFO 13212 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-07T11:01:13.949+05:30  INFO 13212 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2022-12-07T11:01:14.055+05:30  INFO 13212 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-07T11:01:14.056+05:30  INFO 13212 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1971 ms
+2022-12-07T11:01:14.261+05:30  INFO 13212 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-07T11:01:14.330+05:30  INFO 13212 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.5.Final
+2022-12-07T11:01:14.528+05:30  WARN 13212 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2022-12-07T11:01:14.692+05:30  INFO 13212 --- [main] com.zaxxer.hikari.HikariDataSource       : RestConnent - Starting...
+2022-12-07T11:01:14.986+05:30  INFO 13212 --- [main] com.zaxxer.hikari.pool.HikariPool        : RestConnent - Added connection org.postgresql.jdbc.PgConnection@3f3ddbd9
+2022-12-07T11:01:14.991+05:30  INFO 13212 --- [main] com.zaxxer.hikari.HikariDataSource       : RestConnent - Start completed.
+2022-12-07T11:01:15.038+05:30  INFO 13212 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-12-07T11:01:16.279+05:30  INFO 13212 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-07T11:01:16.289+05:30  INFO 13212 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-07T11:01:16.738+05:30  WARN 13212 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-07T11:01:17.177+05:30  INFO 13212 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8989 (http) with context path ''
+2022-12-07T11:01:17.190+05:30  INFO 13212 --- [main] c.e.restservice.RestserviceApplication   : Started RestserviceApplication in 5.867 seconds (process running for 6.461)
+2022-12-07T11:04:27.327+05:30  INFO 13212 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-07T11:04:27.333+05:30  INFO 13212 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : RestConnent - Shutdown initiated...
+2022-12-07T11:04:27.340+05:30  INFO 13212 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : RestConnent - Shutdown completed.
+2022-12-07T11:04:40.840+05:30  INFO 18104 --- [main] c.e.r.RestserviceApplicationTests        : Starting RestserviceApplicationTests using Java 19 with PID 18104 (started by CA-User in D:\NGPay\Task\twoServiceRest\restservice)
+2022-12-07T11:04:40.843+05:30  INFO 18104 --- [main] c.e.r.RestserviceApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2022-12-07T11:04:41.641+05:30  INFO 18104 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-07T11:04:41.739+05:30  INFO 18104 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 83 ms. Found 2 JPA repository interfaces.
+2022-12-07T11:04:42.272+05:30  INFO 18104 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-07T11:04:42.361+05:30  INFO 18104 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.5.Final
+2022-12-07T11:04:42.570+05:30  WARN 18104 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2022-12-07T11:04:42.798+05:30  INFO 18104 --- [main] com.zaxxer.hikari.HikariDataSource       : RestConnent - Starting...
+2022-12-07T11:04:43.037+05:30  INFO 18104 --- [main] com.zaxxer.hikari.pool.HikariPool        : RestConnent - Added connection org.postgresql.jdbc.PgConnection@24d8f87a
+2022-12-07T11:04:43.040+05:30  INFO 18104 --- [main] com.zaxxer.hikari.HikariDataSource       : RestConnent - Start completed.
+2022-12-07T11:04:43.093+05:30  INFO 18104 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-12-07T11:04:44.247+05:30  INFO 18104 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-07T11:04:44.257+05:30  INFO 18104 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-07T11:04:44.956+05:30  WARN 18104 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-07T11:04:46.027+05:30  INFO 18104 --- [main] c.e.r.RestserviceApplicationTests        : Started RestserviceApplicationTests in 5.617 seconds (process running for 6.743)
+2022-12-07T11:04:46.304+05:30  INFO 18104 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-07T11:04:46.308+05:30  INFO 18104 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : RestConnent - Shutdown initiated...
+2022-12-07T11:04:46.325+05:30  INFO 18104 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : RestConnent - Shutdown completed.
+2022-12-07T11:04:51.350+05:30  INFO 10672 --- [main] c.e.restservice.RestserviceApplication   : Starting RestserviceApplication v0.0.1-SNAPSHOT using Java 19 with PID 10672 (D:\NGPay\Task\twoServiceRest\restservice\target\restservice-0.0.1-SNAPSHOT.jar started by CA-User in D:\NGPay\Task\twoServiceRest\restservice)
+2022-12-07T11:04:51.353+05:30  INFO 10672 --- [main] c.e.restservice.RestserviceApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-12-07T11:04:52.389+05:30  INFO 10672 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-07T11:04:52.493+05:30  INFO 10672 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 91 ms. Found 2 JPA repository interfaces.
+2022-12-07T11:04:53.493+05:30  INFO 10672 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8989 (http)
+2022-12-07T11:04:53.509+05:30  INFO 10672 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-07T11:04:53.510+05:30  INFO 10672 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2022-12-07T11:04:53.647+05:30  INFO 10672 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-07T11:04:53.648+05:30  INFO 10672 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2224 ms
+2022-12-07T11:04:53.913+05:30  INFO 10672 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-07T11:04:54.003+05:30  INFO 10672 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.5.Final
+2022-12-07T11:04:54.293+05:30  WARN 10672 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2022-12-07T11:04:54.511+05:30  INFO 10672 --- [main] com.zaxxer.hikari.HikariDataSource       : RestConnent - Starting...
+2022-12-07T11:04:54.912+05:30  INFO 10672 --- [main] com.zaxxer.hikari.pool.HikariPool        : RestConnent - Added connection org.postgresql.jdbc.PgConnection@53cdecf6
+2022-12-07T11:04:54.915+05:30  INFO 10672 --- [main] com.zaxxer.hikari.HikariDataSource       : RestConnent - Start completed.
+2022-12-07T11:04:54.971+05:30  INFO 10672 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-12-07T11:04:56.501+05:30  INFO 10672 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-07T11:04:56.510+05:30  INFO 10672 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-07T11:04:57.077+05:30  WARN 10672 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-07T11:04:58.267+05:30  INFO 10672 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8989 (http) with context path ''
+2022-12-07T11:04:58.281+05:30  INFO 10672 --- [main] c.e.restservice.RestserviceApplication   : Started RestserviceApplication in 7.601 seconds (process running for 8.233)
+2022-12-07T11:05:38.524+05:30  INFO 10672 --- [http-nio-8989-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-07T11:05:38.524+05:30  INFO 10672 --- [http-nio-8989-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-12-07T11:05:38.529+05:30  INFO 10672 --- [http-nio-8989-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2022-12-07T11:09:44.313+05:30  INFO 10672 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-07T11:09:44.315+05:30  INFO 10672 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : RestConnent - Shutdown initiated...
+2022-12-07T11:09:44.320+05:30  INFO 10672 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : RestConnent - Shutdown completed.
+2022-12-07T11:10:00.606+05:30  INFO 14268 --- [main] c.e.r.RestserviceApplicationTests        : Starting RestserviceApplicationTests using Java 19 with PID 14268 (started by CA-User in D:\NGPay\Task\twoServiceRest\restservice)
+2022-12-07T11:10:00.607+05:30  INFO 14268 --- [main] c.e.r.RestserviceApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2022-12-07T11:10:01.435+05:30  INFO 14268 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-07T11:10:01.532+05:30  INFO 14268 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 86 ms. Found 2 JPA repository interfaces.
+2022-12-07T11:10:02.085+05:30  INFO 14268 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-07T11:10:02.173+05:30  INFO 14268 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.5.Final
+2022-12-07T11:10:02.376+05:30  WARN 14268 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2022-12-07T11:10:02.602+05:30  INFO 14268 --- [main] com.zaxxer.hikari.HikariDataSource       : RestConnent - Starting...
+2022-12-07T11:10:02.887+05:30  INFO 14268 --- [main] com.zaxxer.hikari.pool.HikariPool        : RestConnent - Added connection org.postgresql.jdbc.PgConnection@26b3c9a2
+2022-12-07T11:10:02.892+05:30  INFO 14268 --- [main] com.zaxxer.hikari.HikariDataSource       : RestConnent - Start completed.
+2022-12-07T11:10:02.955+05:30  INFO 14268 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-12-07T11:10:04.274+05:30  INFO 14268 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-07T11:10:04.288+05:30  INFO 14268 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-07T11:10:04.971+05:30  WARN 14268 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-07T11:10:05.393+05:30  INFO 14268 --- [main] c.e.r.RestserviceApplicationTests        : Started RestserviceApplicationTests in 5.154 seconds (process running for 6.168)
+2022-12-07T11:10:05.692+05:30  INFO 14268 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-07T11:10:05.698+05:30  INFO 14268 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : RestConnent - Shutdown initiated...
+2022-12-07T11:10:05.712+05:30  INFO 14268 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : RestConnent - Shutdown completed.
+2022-12-07T11:10:10.997+05:30  INFO 1084 --- [main] c.e.restservice.RestserviceApplication   : Starting RestserviceApplication v0.0.1-SNAPSHOT using Java 19 with PID 1084 (D:\NGPay\Task\twoServiceRest\restservice\target\restservice-0.0.1-SNAPSHOT.jar started by CA-User in D:\NGPay\Task\twoServiceRest\restservice)
+2022-12-07T11:10:11.000+05:30  INFO 1084 --- [main] c.e.restservice.RestserviceApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-12-07T11:10:12.048+05:30  INFO 1084 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-07T11:10:12.142+05:30  INFO 1084 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 81 ms. Found 2 JPA repository interfaces.
+2022-12-07T11:10:12.997+05:30  INFO 1084 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8989 (http)
+2022-12-07T11:10:13.010+05:30  INFO 1084 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-07T11:10:13.010+05:30  INFO 1084 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2022-12-07T11:10:13.097+05:30  INFO 1084 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-07T11:10:13.098+05:30  INFO 1084 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2016 ms
+2022-12-07T11:10:13.348+05:30  INFO 1084 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-07T11:10:13.418+05:30  INFO 1084 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.5.Final
+2022-12-07T11:10:13.611+05:30  WARN 1084 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2022-12-07T11:10:13.766+05:30  INFO 1084 --- [main] com.zaxxer.hikari.HikariDataSource       : RestConnent - Starting...
+2022-12-07T11:10:14.088+05:30  INFO 1084 --- [main] com.zaxxer.hikari.pool.HikariPool        : RestConnent - Added connection org.postgresql.jdbc.PgConnection@3b809711
+2022-12-07T11:10:14.092+05:30  INFO 1084 --- [main] com.zaxxer.hikari.HikariDataSource       : RestConnent - Start completed.
+2022-12-07T11:10:14.138+05:30  INFO 1084 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-12-07T11:10:15.449+05:30  INFO 1084 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-07T11:10:15.460+05:30  INFO 1084 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-07T11:10:15.990+05:30  WARN 1084 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-07T11:10:16.567+05:30  INFO 1084 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8989 (http) with context path ''
+2022-12-07T11:10:16.580+05:30  INFO 1084 --- [main] c.e.restservice.RestserviceApplication   : Started RestserviceApplication in 6.268 seconds (process running for 6.927)
+2022-12-07T11:10:46.186+05:30  INFO 1084 --- [http-nio-8989-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-07T11:10:46.186+05:30  INFO 1084 --- [http-nio-8989-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-12-07T11:10:46.189+05:30  INFO 1084 --- [http-nio-8989-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-12-07T11:14:57.408+05:30  INFO 1084 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-07T11:14:57.411+05:30  INFO 1084 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : RestConnent - Shutdown initiated...
+2022-12-07T11:14:57.419+05:30  INFO 1084 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : RestConnent - Shutdown completed.
+2022-12-07T11:15:10.423+05:30  INFO 12092 --- [main] c.e.r.RestserviceApplicationTests        : Starting RestserviceApplicationTests using Java 19 with PID 12092 (started by CA-User in D:\NGPay\Task\twoServiceRest\restservice)
+2022-12-07T11:15:10.427+05:30  INFO 12092 --- [main] c.e.r.RestserviceApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2022-12-07T11:15:12.151+05:30  INFO 12092 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-07T11:15:12.282+05:30  INFO 12092 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 112 ms. Found 2 JPA repository interfaces.
+2022-12-07T11:15:12.999+05:30  INFO 12092 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-07T11:15:13.102+05:30  INFO 12092 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.5.Final
+2022-12-07T11:15:13.391+05:30  WARN 12092 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2022-12-07T11:15:13.694+05:30  INFO 12092 --- [main] com.zaxxer.hikari.HikariDataSource       : RestConnent - Starting...
+2022-12-07T11:15:14.031+05:30  INFO 12092 --- [main] com.zaxxer.hikari.pool.HikariPool        : RestConnent - Added connection org.postgresql.jdbc.PgConnection@53ea380b
+2022-12-07T11:15:14.035+05:30  INFO 12092 --- [main] com.zaxxer.hikari.HikariDataSource       : RestConnent - Start completed.
+2022-12-07T11:15:14.099+05:30  INFO 12092 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-12-07T11:15:15.630+05:30  INFO 12092 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-07T11:15:15.642+05:30  INFO 12092 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-07T11:15:16.467+05:30  WARN 12092 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-07T11:15:17.835+05:30  INFO 12092 --- [main] c.e.r.RestserviceApplicationTests        : Started RestserviceApplicationTests in 7.857 seconds (process running for 9.093)
+2022-12-07T11:15:18.284+05:30  INFO 12092 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-07T11:15:18.290+05:30  INFO 12092 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : RestConnent - Shutdown initiated...
+2022-12-07T11:15:18.309+05:30  INFO 12092 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : RestConnent - Shutdown completed.
+2022-12-07T11:15:24.490+05:30  INFO 3148 --- [main] c.e.restservice.RestserviceApplication   : Starting RestserviceApplication v0.0.1-SNAPSHOT using Java 19 with PID 3148 (D:\NGPay\Task\twoServiceRest\restservice\target\restservice-0.0.1-SNAPSHOT.jar started by CA-User in D:\NGPay\Task\twoServiceRest\restservice)
+2022-12-07T11:15:24.494+05:30  INFO 3148 --- [main] c.e.restservice.RestserviceApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-12-07T11:15:25.416+05:30  INFO 3148 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-07T11:15:25.525+05:30  INFO 3148 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 90 ms. Found 2 JPA repository interfaces.
+2022-12-07T11:15:26.456+05:30  INFO 3148 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8989 (http)
+2022-12-07T11:15:26.474+05:30  INFO 3148 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-07T11:15:26.475+05:30  INFO 3148 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2022-12-07T11:15:26.607+05:30  INFO 3148 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-07T11:15:26.608+05:30  INFO 3148 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2048 ms
+2022-12-07T11:15:26.865+05:30  INFO 3148 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-07T11:15:26.965+05:30  INFO 3148 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.5.Final
+2022-12-07T11:15:27.184+05:30  WARN 3148 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2022-12-07T11:15:27.330+05:30  INFO 3148 --- [main] com.zaxxer.hikari.HikariDataSource       : RestConnent - Starting...
+2022-12-07T11:15:27.645+05:30  INFO 3148 --- [main] com.zaxxer.hikari.pool.HikariPool        : RestConnent - Added connection org.postgresql.jdbc.PgConnection@53cdecf6
+2022-12-07T11:15:27.651+05:30  INFO 3148 --- [main] com.zaxxer.hikari.HikariDataSource       : RestConnent - Start completed.
+2022-12-07T11:15:27.703+05:30  INFO 3148 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-12-07T11:15:29.263+05:30  INFO 3148 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-07T11:15:29.277+05:30  INFO 3148 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-07T11:15:29.810+05:30  WARN 3148 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-07T11:15:30.984+05:30  INFO 3148 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8989 (http) with context path ''
+2022-12-07T11:15:31.000+05:30  INFO 3148 --- [main] c.e.restservice.RestserviceApplication   : Started RestserviceApplication in 7.124 seconds (process running for 7.707)
+2022-12-07T11:15:37.740+05:30  INFO 3148 --- [http-nio-8989-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-07T11:15:37.742+05:30  INFO 3148 --- [http-nio-8989-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-12-07T11:15:37.744+05:30  INFO 3148 --- [http-nio-8989-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-12-07T11:16:57.542+05:30  INFO 3148 --- [http-nio-8989-exec-8] c.e.restservice.service.PracticeService  : details of Ase OpwInserting... 
+2022-12-07T11:16:57.543+05:30  INFO 3148 --- [http-nio-8989-exec-8] c.e.r.controller.PracticeController      : Insert Successfull
+2022-12-07T11:17:09.145+05:30  INFO 3148 --- [http-nio-8989-exec-9] c.e.r.controller.PracticeController      : Fetch Successfull
+2022-12-07T11:27:53.252+05:30  INFO 3148 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-07T11:27:53.257+05:30  INFO 3148 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : RestConnent - Shutdown initiated...
+2022-12-07T11:27:53.264+05:30  INFO 3148 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : RestConnent - Shutdown completed.
+2022-12-07T11:28:04.318+05:30  INFO 13956 --- [main] c.e.r.RestserviceApplicationTests        : Starting RestserviceApplicationTests using Java 19 with PID 13956 (started by CA-User in D:\NGPay\Task\twoServiceRest\restservice)
+2022-12-07T11:28:04.320+05:30  INFO 13956 --- [main] c.e.r.RestserviceApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2022-12-07T11:28:05.110+05:30  INFO 13956 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-07T11:28:05.196+05:30  INFO 13956 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 76 ms. Found 2 JPA repository interfaces.
+2022-12-07T11:28:05.750+05:30  INFO 13956 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-07T11:28:05.817+05:30  INFO 13956 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.5.Final
+2022-12-07T11:28:06.018+05:30  WARN 13956 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2022-12-07T11:28:06.231+05:30  INFO 13956 --- [main] com.zaxxer.hikari.HikariDataSource       : RestConnent - Starting...
+2022-12-07T11:28:06.452+05:30  INFO 13956 --- [main] com.zaxxer.hikari.pool.HikariPool        : RestConnent - Added connection org.postgresql.jdbc.PgConnection@36d582cb
+2022-12-07T11:28:06.455+05:30  INFO 13956 --- [main] com.zaxxer.hikari.HikariDataSource       : RestConnent - Start completed.
+2022-12-07T11:28:06.497+05:30  INFO 13956 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-12-07T11:28:07.604+05:30  INFO 13956 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-07T11:28:07.616+05:30  INFO 13956 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-07T11:28:08.223+05:30  WARN 13956 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-07T11:28:09.118+05:30  INFO 13956 --- [main] c.e.r.RestserviceApplicationTests        : Started RestserviceApplicationTests in 5.147 seconds (process running for 6.154)
+2022-12-07T11:28:09.437+05:30  INFO 13956 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-07T11:28:09.442+05:30  INFO 13956 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : RestConnent - Shutdown initiated...
+2022-12-07T11:28:09.460+05:30  INFO 13956 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : RestConnent - Shutdown completed.
+2022-12-07T11:28:13.986+05:30  INFO 12792 --- [main] c.e.restservice.RestserviceApplication   : Starting RestserviceApplication v0.0.1-SNAPSHOT using Java 19 with PID 12792 (D:\NGPay\Task\twoServiceRest\restservice\target\restservice-0.0.1-SNAPSHOT.jar started by CA-User in D:\NGPay\Task\twoServiceRest\restservice)
+2022-12-07T11:28:13.989+05:30  INFO 12792 --- [main] c.e.restservice.RestserviceApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-12-07T11:28:14.867+05:30  INFO 12792 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-07T11:28:14.950+05:30  INFO 12792 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 72 ms. Found 2 JPA repository interfaces.
+2022-12-07T11:28:15.711+05:30  INFO 12792 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8989 (http)
+2022-12-07T11:28:15.724+05:30  INFO 12792 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-07T11:28:15.724+05:30  INFO 12792 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2022-12-07T11:28:15.810+05:30  INFO 12792 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-07T11:28:15.811+05:30  INFO 12792 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1759 ms
+2022-12-07T11:28:16.013+05:30  INFO 12792 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-07T11:28:16.086+05:30  INFO 12792 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.5.Final
+2022-12-07T11:28:16.306+05:30  WARN 12792 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2022-12-07T11:28:16.447+05:30  INFO 12792 --- [main] com.zaxxer.hikari.HikariDataSource       : RestConnent - Starting...
+2022-12-07T11:28:16.737+05:30  INFO 12792 --- [main] com.zaxxer.hikari.pool.HikariPool        : RestConnent - Added connection org.postgresql.jdbc.PgConnection@53cdecf6
+2022-12-07T11:28:16.741+05:30  INFO 12792 --- [main] com.zaxxer.hikari.HikariDataSource       : RestConnent - Start completed.
+2022-12-07T11:28:16.781+05:30  INFO 12792 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-12-07T11:28:17.929+05:30  INFO 12792 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-07T11:28:17.937+05:30  INFO 12792 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-07T11:28:18.404+05:30  WARN 12792 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-07T11:28:19.288+05:30  INFO 12792 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8989 (http) with context path ''
+2022-12-07T11:28:19.303+05:30  INFO 12792 --- [main] c.e.restservice.RestserviceApplication   : Started RestserviceApplication in 5.916 seconds (process running for 6.506)
+2022-12-07T11:28:32.135+05:30  INFO 12792 --- [http-nio-8989-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-07T11:28:32.159+05:30  INFO 12792 --- [http-nio-8989-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-12-07T11:28:32.197+05:30  INFO 12792 --- [http-nio-8989-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2022-12-07T11:28:32.500+05:30  INFO 12792 --- [http-nio-8989-exec-2] c.e.restservice.service.PracticeService  : details of Ase OpwInserting... 
+2022-12-07T11:28:32.503+05:30  INFO 12792 --- [http-nio-8989-exec-2] c.e.r.controller.PracticeController      : Insert Successfull
+2022-12-07T11:28:39.963+05:30  INFO 12792 --- [http-nio-8989-exec-3] c.e.r.controller.PracticeController      : Fetch Successfull
+2022-12-07T12:23:47.648+05:30  WARN 12792 --- [RestConnent housekeeper] com.zaxxer.hikari.pool.HikariPool        : RestConnent - Thread starvation or clock leap detected (housekeeper delta=23m1s710ms407µs900ns).
+2022-12-07T12:33:19.321+05:30  INFO 12792 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-07T12:33:19.325+05:30  INFO 12792 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : RestConnent - Shutdown initiated...
+2022-12-07T12:33:19.331+05:30  INFO 12792 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : RestConnent - Shutdown completed.
+2022-12-07T12:33:40.065+05:30  INFO 14576 --- [main] c.e.r.RestserviceApplicationTests        : Starting RestserviceApplicationTests using Java 19 with PID 14576 (started by CA-User in D:\NGPay\Task\twoServiceRest\restservice)
+2022-12-07T12:33:40.066+05:30  INFO 14576 --- [main] c.e.r.RestserviceApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2022-12-07T12:33:40.880+05:30  INFO 14576 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-07T12:33:40.963+05:30  INFO 14576 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 72 ms. Found 2 JPA repository interfaces.
+2022-12-07T12:33:41.542+05:30  INFO 14576 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-07T12:33:41.615+05:30  INFO 14576 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.5.Final
+2022-12-07T12:33:41.804+05:30  WARN 14576 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2022-12-07T12:33:42.019+05:30  INFO 14576 --- [main] com.zaxxer.hikari.HikariDataSource       : RestConnent - Starting...
+2022-12-07T12:33:42.292+05:30  INFO 14576 --- [main] com.zaxxer.hikari.pool.HikariPool        : RestConnent - Added connection org.postgresql.jdbc.PgConnection@2ce524d2
+2022-12-07T12:33:42.294+05:30  INFO 14576 --- [main] com.zaxxer.hikari.HikariDataSource       : RestConnent - Start completed.
+2022-12-07T12:33:42.342+05:30  INFO 14576 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-12-07T12:33:43.408+05:30  INFO 14576 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-07T12:33:43.419+05:30  INFO 14576 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-07T12:33:44.058+05:30  WARN 14576 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-07T12:33:44.948+05:30  INFO 14576 --- [main] c.e.r.RestserviceApplicationTests        : Started RestserviceApplicationTests in 5.237 seconds (process running for 6.294)
+2022-12-07T12:33:45.272+05:30  INFO 14576 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-07T12:33:45.275+05:30  INFO 14576 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : RestConnent - Shutdown initiated...
+2022-12-07T12:33:45.288+05:30  INFO 14576 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : RestConnent - Shutdown completed.
+2022-12-07T12:34:03.773+05:30  INFO 16428 --- [main] c.e.restservice.RestserviceApplication   : Starting RestserviceApplication v0.0.1-SNAPSHOT using Java 19 with PID 16428 (D:\NGPay\Task\twoServiceRest\restservice\target\restservice-0.0.1-SNAPSHOT.jar started by CA-User in D:\NGPay\Task\twoServiceRest\restservice)
+2022-12-07T12:34:03.777+05:30  INFO 16428 --- [main] c.e.restservice.RestserviceApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-12-07T12:34:04.710+05:30  INFO 16428 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-07T12:34:04.794+05:30  INFO 16428 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 70 ms. Found 2 JPA repository interfaces.
+2022-12-07T12:34:05.546+05:30  INFO 16428 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8989 (http)
+2022-12-07T12:34:05.560+05:30  INFO 16428 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-07T12:34:05.561+05:30  INFO 16428 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2022-12-07T12:34:05.658+05:30  INFO 16428 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-07T12:34:05.658+05:30  INFO 16428 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1818 ms
+2022-12-07T12:34:05.867+05:30  INFO 16428 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-07T12:34:05.927+05:30  INFO 16428 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.5.Final
+2022-12-07T12:34:06.130+05:30  WARN 16428 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2022-12-07T12:34:06.288+05:30  INFO 16428 --- [main] com.zaxxer.hikari.HikariDataSource       : RestConnent - Starting...
+2022-12-07T12:34:06.648+05:30  INFO 16428 --- [main] com.zaxxer.hikari.pool.HikariPool        : RestConnent - Added connection org.postgresql.jdbc.PgConnection@53cdecf6
+2022-12-07T12:34:06.652+05:30  INFO 16428 --- [main] com.zaxxer.hikari.HikariDataSource       : RestConnent - Start completed.
+2022-12-07T12:34:06.700+05:30  INFO 16428 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-12-07T12:34:07.878+05:30  INFO 16428 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-07T12:34:07.887+05:30  INFO 16428 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-07T12:34:08.316+05:30  WARN 16428 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-07T12:34:09.160+05:30  INFO 16428 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8989 (http) with context path ''
+2022-12-07T12:34:09.169+05:30  INFO 16428 --- [main] c.e.restservice.RestserviceApplication   : Started RestserviceApplication in 6.033 seconds (process running for 6.626)
+2022-12-07T12:34:29.731+05:30  INFO 16428 --- [http-nio-8989-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-07T12:34:29.732+05:30  INFO 16428 --- [http-nio-8989-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-12-07T12:34:29.735+05:30  INFO 16428 --- [http-nio-8989-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-12-07T12:34:29.867+05:30  INFO 16428 --- [http-nio-8989-exec-1] c.e.restservice.service.PracticeService  : person with id 2 retrieved successfully
+2022-12-07T12:34:29.868+05:30  INFO 16428 --- [http-nio-8989-exec-1] c.e.r.controller.PracticeController      : Fetch Successfull
+2022-12-07T12:34:35.928+05:30  INFO 16428 --- [http-nio-8989-exec-3] c.e.restservice.service.PracticeService  : person with id 2 retrieved successfully
+2022-12-07T12:34:35.932+05:30  INFO 16428 --- [http-nio-8989-exec-3] c.e.r.controller.PracticeController      : Fetch Successfull
+2022-12-07T12:35:11.068+05:30  INFO 16428 --- [http-nio-8989-exec-4] c.e.restservice.service.PracticeService  : person with id 2 retrieved successfully
+2022-12-07T12:35:11.073+05:30  INFO 16428 --- [http-nio-8989-exec-4] c.e.r.controller.PracticeController      : Fetch Successfull
+2022-12-07T12:40:47.478+05:30  INFO 16428 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-07T12:40:47.480+05:30  INFO 16428 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : RestConnent - Shutdown initiated...
+2022-12-07T12:40:47.484+05:30  INFO 16428 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : RestConnent - Shutdown completed.
+2022-12-07T12:41:22.022+05:30  INFO 2836 --- [main] c.e.r.RestserviceApplicationTests        : Starting RestserviceApplicationTests using Java 19 with PID 2836 (started by CA-User in D:\NGPay\Task\twoServiceRest\restservice)
+2022-12-07T12:41:22.025+05:30  INFO 2836 --- [main] c.e.r.RestserviceApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2022-12-07T12:41:22.824+05:30  INFO 2836 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-07T12:41:22.919+05:30  INFO 2836 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 79 ms. Found 2 JPA repository interfaces.
+2022-12-07T12:41:23.465+05:30  INFO 2836 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-07T12:41:23.526+05:30  INFO 2836 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.5.Final
+2022-12-07T12:41:23.711+05:30  WARN 2836 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2022-12-07T12:41:23.926+05:30  INFO 2836 --- [main] com.zaxxer.hikari.HikariDataSource       : RestConnent - Starting...
+2022-12-07T12:41:24.175+05:30  INFO 2836 --- [main] com.zaxxer.hikari.pool.HikariPool        : RestConnent - Added connection org.postgresql.jdbc.PgConnection@2c8b8de0
+2022-12-07T12:41:24.179+05:30  INFO 2836 --- [main] com.zaxxer.hikari.HikariDataSource       : RestConnent - Start completed.
+2022-12-07T12:41:24.230+05:30  INFO 2836 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-12-07T12:41:25.448+05:30  INFO 2836 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-07T12:41:25.458+05:30  INFO 2836 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-07T12:41:26.168+05:30  WARN 2836 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-07T12:41:27.122+05:30  INFO 2836 --- [main] c.e.r.RestserviceApplicationTests        : Started RestserviceApplicationTests in 5.439 seconds (process running for 6.554)
+2022-12-07T12:41:27.423+05:30  INFO 2836 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-07T12:41:27.427+05:30  INFO 2836 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : RestConnent - Shutdown initiated...
+2022-12-07T12:41:27.439+05:30  INFO 2836 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : RestConnent - Shutdown completed.
+2022-12-07T12:41:32.364+05:30  INFO 3020 --- [main] c.e.restservice.RestserviceApplication   : Starting RestserviceApplication v0.0.1-SNAPSHOT using Java 19 with PID 3020 (D:\NGPay\Task\twoServiceRest\restservice\target\restservice-0.0.1-SNAPSHOT.jar started by CA-User in D:\NGPay\Task\twoServiceRest\restservice)
+2022-12-07T12:41:32.368+05:30  INFO 3020 --- [main] c.e.restservice.RestserviceApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-12-07T12:41:33.395+05:30  INFO 3020 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-07T12:41:33.485+05:30  INFO 3020 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 78 ms. Found 2 JPA repository interfaces.
+2022-12-07T12:41:34.394+05:30  INFO 3020 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8989 (http)
+2022-12-07T12:41:34.405+05:30  INFO 3020 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-07T12:41:34.405+05:30  INFO 3020 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2022-12-07T12:41:34.497+05:30  INFO 3020 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-07T12:41:34.498+05:30  INFO 3020 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2060 ms
+2022-12-07T12:41:34.729+05:30  INFO 3020 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-07T12:41:34.809+05:30  INFO 3020 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.5.Final
+2022-12-07T12:41:35.181+05:30  WARN 3020 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2022-12-07T12:41:35.396+05:30  INFO 3020 --- [main] com.zaxxer.hikari.HikariDataSource       : RestConnent - Starting...
+2022-12-07T12:41:35.728+05:30  INFO 3020 --- [main] com.zaxxer.hikari.pool.HikariPool        : RestConnent - Added connection org.postgresql.jdbc.PgConnection@53cdecf6
+2022-12-07T12:41:35.731+05:30  INFO 3020 --- [main] com.zaxxer.hikari.HikariDataSource       : RestConnent - Start completed.
+2022-12-07T12:41:35.772+05:30  INFO 3020 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-12-07T12:41:37.083+05:30  INFO 3020 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-07T12:41:37.092+05:30  INFO 3020 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-07T12:41:37.589+05:30  WARN 3020 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-07T12:41:38.574+05:30  INFO 3020 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8989 (http) with context path ''
+2022-12-07T12:41:38.590+05:30  INFO 3020 --- [main] c.e.restservice.RestserviceApplication   : Started RestserviceApplication in 6.854 seconds (process running for 7.502)
+2022-12-07T12:41:56.932+05:30  INFO 3020 --- [http-nio-8989-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-07T12:41:56.933+05:30  INFO 3020 --- [http-nio-8989-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-12-07T12:41:56.939+05:30  INFO 3020 --- [http-nio-8989-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2022-12-07T12:41:57.619+05:30  INFO 3020 --- [http-nio-8989-exec-1] c.e.restservice.service.PracticeService  : details of Ase OpwInserting... 
+2022-12-07T12:41:57.623+05:30  INFO 3020 --- [http-nio-8989-exec-1] c.e.r.controller.PracticeController      : Insert Successfull
+2022-12-07T12:42:03.077+05:30  INFO 3020 --- [http-nio-8989-exec-3] c.e.restservice.service.PracticeService  : details of Ase OpwInserting... 
+2022-12-07T12:42:03.077+05:30  INFO 3020 --- [http-nio-8989-exec-3] c.e.r.controller.PracticeController      : Insert Successfull
+2022-12-07T12:45:17.136+05:30  INFO 3020 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-07T12:45:17.140+05:30  INFO 3020 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : RestConnent - Shutdown initiated...
+2022-12-07T12:45:17.150+05:30  INFO 3020 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : RestConnent - Shutdown completed.
+2022-12-07T12:45:35.360+05:30  INFO 20656 --- [main] c.e.r.RestserviceApplicationTests        : Starting RestserviceApplicationTests using Java 19 with PID 20656 (started by CA-User in D:\NGPay\Task\twoServiceRest\restservice)
+2022-12-07T12:45:35.363+05:30  INFO 20656 --- [main] c.e.r.RestserviceApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2022-12-07T12:45:37.261+05:30  INFO 20656 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-07T12:45:37.372+05:30  INFO 20656 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 90 ms. Found 2 JPA repository interfaces.
+2022-12-07T12:45:38.019+05:30  INFO 20656 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-07T12:45:38.099+05:30  INFO 20656 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.5.Final
+2022-12-07T12:45:38.519+05:30  WARN 20656 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2022-12-07T12:45:38.832+05:30  INFO 20656 --- [main] com.zaxxer.hikari.HikariDataSource       : RestConnent - Starting...
+2022-12-07T12:45:39.263+05:30  INFO 20656 --- [main] com.zaxxer.hikari.pool.HikariPool        : RestConnent - Added connection org.postgresql.jdbc.PgConnection@7e191fda
+2022-12-07T12:45:39.266+05:30  INFO 20656 --- [main] com.zaxxer.hikari.HikariDataSource       : RestConnent - Start completed.
+2022-12-07T12:45:39.318+05:30  INFO 20656 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-12-07T12:45:40.588+05:30  INFO 20656 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-07T12:45:40.599+05:30  INFO 20656 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-07T12:45:41.441+05:30  WARN 20656 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-07T12:45:43.278+05:30  INFO 20656 --- [main] c.e.r.RestserviceApplicationTests        : Started RestserviceApplicationTests in 8.623 seconds (process running for 10.229)
+2022-12-07T12:45:44.189+05:30  INFO 20656 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-07T12:45:44.195+05:30  INFO 20656 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : RestConnent - Shutdown initiated...
+2022-12-07T12:45:44.204+05:30  INFO 20656 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : RestConnent - Shutdown completed.
+2022-12-07T12:46:10.572+05:30  INFO 17760 --- [main] c.e.restservice.RestserviceApplication   : Starting RestserviceApplication v0.0.1-SNAPSHOT using Java 19 with PID 17760 (D:\NGPay\Task\twoServiceRest\restservice\target\restservice-0.0.1-SNAPSHOT.jar started by CA-User in D:\NGPay\Task\twoServiceRest\restservice)
+2022-12-07T12:46:10.576+05:30  INFO 17760 --- [main] c.e.restservice.RestserviceApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-12-07T12:46:11.560+05:30  INFO 17760 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-07T12:46:11.673+05:30  INFO 17760 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 95 ms. Found 2 JPA repository interfaces.
+2022-12-07T12:46:12.440+05:30  INFO 17760 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8989 (http)
+2022-12-07T12:46:12.451+05:30  INFO 17760 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-07T12:46:12.452+05:30  INFO 17760 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2022-12-07T12:46:12.636+05:30  INFO 17760 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-07T12:46:12.636+05:30  INFO 17760 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1994 ms
+2022-12-07T12:46:12.879+05:30  INFO 17760 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-07T12:46:12.954+05:30  INFO 17760 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.5.Final
+2022-12-07T12:46:13.158+05:30  WARN 17760 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2022-12-07T12:46:13.311+05:30  INFO 17760 --- [main] com.zaxxer.hikari.HikariDataSource       : RestConnent - Starting...
+2022-12-07T12:46:13.626+05:30  INFO 17760 --- [main] com.zaxxer.hikari.pool.HikariPool        : RestConnent - Added connection org.postgresql.jdbc.PgConnection@53cdecf6
+2022-12-07T12:46:13.631+05:30  INFO 17760 --- [main] com.zaxxer.hikari.HikariDataSource       : RestConnent - Start completed.
+2022-12-07T12:46:13.689+05:30  INFO 17760 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-12-07T12:46:14.887+05:30  INFO 17760 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-07T12:46:14.927+05:30  INFO 17760 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-07T12:46:16.176+05:30  WARN 17760 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-07T12:46:18.344+05:30  INFO 17760 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8989 (http) with context path ''
+2022-12-07T12:46:18.377+05:30  INFO 17760 --- [main] c.e.restservice.RestserviceApplication   : Started RestserviceApplication in 8.521 seconds (process running for 9.149)
+2022-12-07T12:46:19.300+05:30  INFO 17760 --- [http-nio-8989-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-07T12:46:19.302+05:30  INFO 17760 --- [http-nio-8989-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-12-07T12:46:19.307+05:30  INFO 17760 --- [http-nio-8989-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-12-07T12:46:19.981+05:30  INFO 17760 --- [http-nio-8989-exec-1] c.e.restservice.service.PracticeService  : details of Ase OpwInserting... 
+2022-12-07T12:46:19.984+05:30  INFO 17760 --- [http-nio-8989-exec-1] c.e.r.controller.PracticeController      : Insert Successfull
+2022-12-07T12:47:50.045+05:30  INFO 17760 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-07T12:47:50.049+05:30  INFO 17760 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : RestConnent - Shutdown initiated...
+2022-12-07T12:47:50.053+05:30  INFO 17760 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : RestConnent - Shutdown completed.
+2022-12-07T12:49:03.040+05:30  INFO 14212 --- [main] c.e.r.RestserviceApplicationTests        : Starting RestserviceApplicationTests using Java 19 with PID 14212 (started by CA-User in D:\NGPay\Task\twoServiceRest\restservice)
+2022-12-07T12:49:03.043+05:30  INFO 14212 --- [main] c.e.r.RestserviceApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2022-12-07T12:49:04.638+05:30  INFO 14212 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-07T12:49:04.728+05:30  INFO 14212 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 80 ms. Found 2 JPA repository interfaces.
+2022-12-07T12:49:05.263+05:30  INFO 14212 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-07T12:49:05.325+05:30  INFO 14212 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.5.Final
+2022-12-07T12:49:05.639+05:30  WARN 14212 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2022-12-07T12:49:05.932+05:30  INFO 14212 --- [main] com.zaxxer.hikari.HikariDataSource       : RestConnent - Starting...
+2022-12-07T12:49:06.193+05:30  INFO 14212 --- [main] com.zaxxer.hikari.pool.HikariPool        : RestConnent - Added connection org.postgresql.jdbc.PgConnection@7d484fcd
+2022-12-07T12:49:06.196+05:30  INFO 14212 --- [main] com.zaxxer.hikari.HikariDataSource       : RestConnent - Start completed.
+2022-12-07T12:49:06.246+05:30  INFO 14212 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-12-07T12:49:07.599+05:30  INFO 14212 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-07T12:49:07.610+05:30  INFO 14212 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-07T12:49:08.371+05:30  WARN 14212 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-07T12:49:09.986+05:30  INFO 14212 --- [main] c.e.r.RestserviceApplicationTests        : Started RestserviceApplicationTests in 7.475 seconds (process running for 8.705)
+2022-12-07T12:49:10.817+05:30  INFO 14212 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-07T12:49:10.833+05:30  INFO 14212 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : RestConnent - Shutdown initiated...
+2022-12-07T12:49:10.873+05:30  INFO 14212 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : RestConnent - Shutdown completed.
+2022-12-07T12:49:18.668+05:30  INFO 15656 --- [main] c.e.restservice.RestserviceApplication   : Starting RestserviceApplication v0.0.1-SNAPSHOT using Java 19 with PID 15656 (D:\NGPay\Task\twoServiceRest\restservice\target\restservice-0.0.1-SNAPSHOT.jar started by CA-User in D:\NGPay\Task\twoServiceRest\restservice)
+2022-12-07T12:49:18.672+05:30  INFO 15656 --- [main] c.e.restservice.RestserviceApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-12-07T12:49:19.709+05:30  INFO 15656 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-07T12:49:19.792+05:30  INFO 15656 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 67 ms. Found 2 JPA repository interfaces.
+2022-12-07T12:49:20.635+05:30  INFO 15656 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8989 (http)
+2022-12-07T12:49:20.650+05:30  INFO 15656 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-07T12:49:20.650+05:30  INFO 15656 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2022-12-07T12:49:20.743+05:30  INFO 15656 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-07T12:49:20.744+05:30  INFO 15656 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1987 ms
+2022-12-07T12:49:20.944+05:30  INFO 15656 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-07T12:49:21.019+05:30  INFO 15656 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.5.Final
+2022-12-07T12:49:21.200+05:30  WARN 15656 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2022-12-07T12:49:21.336+05:30  INFO 15656 --- [main] com.zaxxer.hikari.HikariDataSource       : RestConnent - Starting...
+2022-12-07T12:49:21.680+05:30  INFO 15656 --- [main] com.zaxxer.hikari.pool.HikariPool        : RestConnent - Added connection org.postgresql.jdbc.PgConnection@232024b9
+2022-12-07T12:49:21.687+05:30  INFO 15656 --- [main] com.zaxxer.hikari.HikariDataSource       : RestConnent - Start completed.
+2022-12-07T12:49:21.739+05:30  INFO 15656 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-12-07T12:49:22.953+05:30  INFO 15656 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-07T12:49:22.963+05:30  INFO 15656 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-07T12:49:23.489+05:30  WARN 15656 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-07T12:49:24.455+05:30  INFO 15656 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8989 (http) with context path ''
+2022-12-07T12:49:24.471+05:30  INFO 15656 --- [main] c.e.restservice.RestserviceApplication   : Started RestserviceApplication in 6.509 seconds (process running for 7.14)
+2022-12-07T12:49:28.382+05:30  INFO 15656 --- [http-nio-8989-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-07T12:49:28.384+05:30  INFO 15656 --- [http-nio-8989-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-12-07T12:49:28.391+05:30  INFO 15656 --- [http-nio-8989-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2022-12-07T12:49:29.094+05:30  INFO 15656 --- [http-nio-8989-exec-1] c.e.restservice.service.PracticeService  : details of Ase OpwInserting... 
+2022-12-07T12:49:29.097+05:30  INFO 15656 --- [http-nio-8989-exec-1] c.e.r.controller.PracticeController      : Insert Successfull
+2022-12-07T12:50:39.203+05:30 ERROR 15656 --- [http-nio-8989-exec-5] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.example.restservice.model.PracticeDetails.getAddressOne()" because the return value of "com.example.restservice.model.PatientDetails.getPracticeDetails()" is null] with root cause
+
+java.lang.NullPointerException: Cannot invoke "com.example.restservice.model.PracticeDetails.getAddressOne()" because the return value of "com.example.restservice.model.PatientDetails.getPracticeDetails()" is null
+	at com.example.restservice.service.PracticeService.updatePatient(PracticeService.java:98) ~[classes!/:0.0.1-SNAPSHOT]
+	at com.example.restservice.controller.PracticeController.updatePerson(PracticeController.java:49) ~[classes!/:0.0.1-SNAPSHOT]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207) ~[spring-web-6.0.2.jar!/:6.0.2]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152) ~[spring-web-6.0.2.jar!/:6.0.2]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-6.0.2.jar!/:6.0.2]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884) ~[spring-webmvc-6.0.2.jar!/:6.0.2]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-6.0.2.jar!/:6.0.2]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.0.2.jar!/:6.0.2]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080) ~[spring-webmvc-6.0.2.jar!/:6.0.2]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973) ~[spring-webmvc-6.0.2.jar!/:6.0.2]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003) ~[spring-webmvc-6.0.2.jar!/:6.0.2]
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:917) ~[spring-webmvc-6.0.2.jar!/:6.0.2]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:734) ~[tomcat-embed-core-10.1.1.jar!/:na]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880) ~[spring-webmvc-6.0.2.jar!/:6.0.2]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814) ~[tomcat-embed-core-10.1.1.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223) ~[tomcat-embed-core-10.1.1.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158) ~[tomcat-embed-core-10.1.1.jar!/:na]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-10.1.1.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185) ~[tomcat-embed-core-10.1.1.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158) ~[tomcat-embed-core-10.1.1.jar!/:na]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.2.jar!/:6.0.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.2.jar!/:6.0.2]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185) ~[tomcat-embed-core-10.1.1.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158) ~[tomcat-embed-core-10.1.1.jar!/:na]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.2.jar!/:6.0.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.2.jar!/:6.0.2]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185) ~[tomcat-embed-core-10.1.1.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158) ~[tomcat-embed-core-10.1.1.jar!/:na]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.2.jar!/:6.0.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.2.jar!/:6.0.2]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185) ~[tomcat-embed-core-10.1.1.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158) ~[tomcat-embed-core-10.1.1.jar!/:na]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-10.1.1.jar!/:na]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-10.1.1.jar!/:na]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-10.1.1.jar!/:na]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119) ~[tomcat-embed-core-10.1.1.jar!/:na]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-10.1.1.jar!/:na]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-10.1.1.jar!/:na]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-10.1.1.jar!/:na]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400) ~[tomcat-embed-core-10.1.1.jar!/:na]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-10.1.1.jar!/:na]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861) ~[tomcat-embed-core-10.1.1.jar!/:na]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739) ~[tomcat-embed-core-10.1.1.jar!/:na]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.1.jar!/:na]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.1.jar!/:na]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.1.jar!/:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.1.jar!/:na]
+	at java.base/java.lang.Thread.run(Thread.java:1589) ~[na:na]
+
+2022-12-07T12:53:53.965+05:30  INFO 15656 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-07T12:53:53.975+05:30  INFO 15656 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : RestConnent - Shutdown initiated...
+2022-12-07T12:53:54.008+05:30  INFO 15656 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : RestConnent - Shutdown completed.
+2022-12-07T12:54:06.475+05:30  INFO 16516 --- [main] c.e.r.RestserviceApplicationTests        : Starting RestserviceApplicationTests using Java 19 with PID 16516 (started by CA-User in D:\NGPay\Task\twoServiceRest\restservice)
+2022-12-07T12:54:06.477+05:30  INFO 16516 --- [main] c.e.r.RestserviceApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2022-12-07T12:54:07.389+05:30  INFO 16516 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-07T12:54:07.496+05:30  INFO 16516 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 96 ms. Found 2 JPA repository interfaces.
+2022-12-07T12:54:08.072+05:30  INFO 16516 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-07T12:54:08.133+05:30  INFO 16516 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.5.Final
+2022-12-07T12:54:08.357+05:30  WARN 16516 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2022-12-07T12:54:08.592+05:30  INFO 16516 --- [main] com.zaxxer.hikari.HikariDataSource       : RestConnent - Starting...
+2022-12-07T12:54:08.853+05:30  INFO 16516 --- [main] com.zaxxer.hikari.pool.HikariPool        : RestConnent - Added connection org.postgresql.jdbc.PgConnection@7d484fcd
+2022-12-07T12:54:08.856+05:30  INFO 16516 --- [main] com.zaxxer.hikari.HikariDataSource       : RestConnent - Start completed.
+2022-12-07T12:54:08.905+05:30  INFO 16516 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-12-07T12:54:10.099+05:30  INFO 16516 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-07T12:54:10.114+05:30  INFO 16516 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-07T12:54:10.822+05:30  WARN 16516 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-07T12:54:11.838+05:30  INFO 16516 --- [main] c.e.r.RestserviceApplicationTests        : Started RestserviceApplicationTests in 5.761 seconds (process running for 6.86)
+2022-12-07T12:54:12.158+05:30  INFO 16516 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-07T12:54:12.165+05:30  INFO 16516 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : RestConnent - Shutdown initiated...
+2022-12-07T12:54:12.183+05:30  INFO 16516 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : RestConnent - Shutdown completed.
+2022-12-07T12:54:18.108+05:30  INFO 18256 --- [main] c.e.restservice.RestserviceApplication   : Starting RestserviceApplication v0.0.1-SNAPSHOT using Java 19 with PID 18256 (D:\NGPay\Task\twoServiceRest\restservice\target\restservice-0.0.1-SNAPSHOT.jar started by CA-User in D:\NGPay\Task\twoServiceRest\restservice)
+2022-12-07T12:54:18.113+05:30  INFO 18256 --- [main] c.e.restservice.RestserviceApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-12-07T12:54:19.186+05:30  INFO 18256 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-07T12:54:19.283+05:30  INFO 18256 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 84 ms. Found 2 JPA repository interfaces.
+2022-12-07T12:54:20.130+05:30  INFO 18256 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8989 (http)
+2022-12-07T12:54:20.143+05:30  INFO 18256 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-07T12:54:20.145+05:30  INFO 18256 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2022-12-07T12:54:20.263+05:30  INFO 18256 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-07T12:54:20.264+05:30  INFO 18256 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2069 ms
+2022-12-07T12:54:20.533+05:30  INFO 18256 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-07T12:54:20.635+05:30  INFO 18256 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.5.Final
+2022-12-07T12:54:20.896+05:30  WARN 18256 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2022-12-07T12:54:21.088+05:30  INFO 18256 --- [main] com.zaxxer.hikari.HikariDataSource       : RestConnent - Starting...
+2022-12-07T12:54:21.473+05:30  INFO 18256 --- [main] com.zaxxer.hikari.pool.HikariPool        : RestConnent - Added connection org.postgresql.jdbc.PgConnection@53cdecf6
+2022-12-07T12:54:21.478+05:30  INFO 18256 --- [main] com.zaxxer.hikari.HikariDataSource       : RestConnent - Start completed.
+2022-12-07T12:54:21.546+05:30  INFO 18256 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-12-07T12:54:23.174+05:30  INFO 18256 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-07T12:54:23.189+05:30  INFO 18256 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-07T12:54:23.733+05:30  WARN 18256 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-07T12:54:24.920+05:30  INFO 18256 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8989 (http) with context path ''
+2022-12-07T12:54:24.935+05:30  INFO 18256 --- [main] c.e.restservice.RestserviceApplication   : Started RestserviceApplication in 7.567 seconds (process running for 8.188)
+2022-12-07T13:06:22.441+05:30  INFO 18256 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-07T13:06:22.444+05:30  INFO 18256 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : RestConnent - Shutdown initiated...
+2022-12-07T13:06:22.450+05:30  INFO 18256 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : RestConnent - Shutdown completed.

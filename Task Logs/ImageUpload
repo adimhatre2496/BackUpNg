@@ -1,0 +1,93 @@
+2022-12-28 01:39:23.570  WARN 38056 --- [Image housekeeper] com.zaxxer.hikari.pool.HikariPool        : Image - Thread starvation or clock leap detected (housekeeper delta=3h1m56s443ms903µs500ns).
+2022-12-28 04:56:25.005  WARN 38056 --- [Image housekeeper] com.zaxxer.hikari.pool.HikariPool        : Image - Thread starvation or clock leap detected (housekeeper delta=3h1m55s704ms682µs900ns).
+2022-12-28 08:13:22.754  WARN 38056 --- [Image housekeeper] com.zaxxer.hikari.pool.HikariPool        : Image - Thread starvation or clock leap detected (housekeeper delta=3h1m57s468ms642µs200ns).
+2022-12-28 11:15:47.458  WARN 38056 --- [Image housekeeper] com.zaxxer.hikari.pool.HikariPool        : Image - Thread starvation or clock leap detected (housekeeper delta=2h55m8s655ms595µs500ns).
+2022-12-28 11:22:52.640  INFO 38056 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-28 11:22:52.722  INFO 38056 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : Image - Shutdown initiated...
+2022-12-28 11:23:00.019  INFO 38056 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : Image - Shutdown completed.
+2022-12-28 11:23:24.181  INFO 45912 --- [main] c.e.i.ImageuploadApplicationTests        : Starting ImageuploadApplicationTests using Java 19 on CA-AdityaM with PID 45912 (started by CA-User in D:\NGPay\Task\imageupload)
+2022-12-28 11:23:24.184  INFO 45912 --- [main] c.e.i.ImageuploadApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2022-12-28 11:23:25.159  INFO 45912 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-28 11:23:25.269  INFO 45912 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 85 ms. Found 1 JPA repository interfaces.
+2022-12-28 11:23:26.224  INFO 45912 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-28 11:23:26.345  INFO 45912 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2022-12-28 11:23:26.613  INFO 45912 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-28 11:23:26.834  INFO 45912 --- [main] com.zaxxer.hikari.HikariDataSource       : Image - Starting...
+2022-12-28 11:23:27.283  INFO 45912 --- [main] com.zaxxer.hikari.HikariDataSource       : Image - Start completed.
+2022-12-28 11:23:27.329  INFO 45912 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-12-28 11:23:28.456  INFO 45912 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-28 11:23:28.468  INFO 45912 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-28 11:23:29.506  WARN 45912 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-28 11:23:30.642  INFO 45912 --- [main] c.e.i.ImageuploadApplicationTests        : Started ImageuploadApplicationTests in 6.996 seconds (JVM running for 8.459)
+2022-12-28 11:23:31.140  INFO 45912 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-28 11:23:31.146  INFO 45912 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : Image - Shutdown initiated...
+2022-12-28 11:23:31.599  INFO 45912 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : Image - Shutdown completed.
+2022-12-28 11:23:47.167  INFO 28584 --- [main] c.e.imageupload.ImageuploadApplication   : Starting ImageuploadApplication v0.0.1-SNAPSHOT using Java 19 on CA-AdityaM with PID 28584 (D:\NGPay\Task\imageupload\target\imageupload-0.0.1-SNAPSHOT.jar started by CA-User in D:\NGPay\Task\imageupload)
+2022-12-28 11:23:47.171  INFO 28584 --- [main] c.e.imageupload.ImageuploadApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-12-28 11:23:47.913  INFO 28584 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-28 11:23:47.984  INFO 28584 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50 ms. Found 1 JPA repository interfaces.
+2022-12-28 11:23:48.796  INFO 28584 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 4534 (http)
+2022-12-28 11:23:48.811  INFO 28584 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-28 11:23:48.812  INFO 28584 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.70]
+2022-12-28 11:23:48.905  INFO 28584 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-28 11:23:48.906  INFO 28584 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1659 ms
+2022-12-28 11:23:49.165  INFO 28584 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-28 11:23:49.218  INFO 28584 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2022-12-28 11:23:49.408  INFO 28584 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-28 11:23:49.521  INFO 28584 --- [main] com.zaxxer.hikari.HikariDataSource       : Image - Starting...
+2022-12-28 11:23:49.891  INFO 28584 --- [main] com.zaxxer.hikari.HikariDataSource       : Image - Start completed.
+2022-12-28 11:23:49.914  INFO 28584 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-12-28 11:23:50.696  INFO 28584 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-28 11:23:50.710  INFO 28584 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-28 11:23:51.142  WARN 28584 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-28 11:23:51.682  INFO 28584 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 4534 (http) with context path ''
+2022-12-28 11:23:51.700  INFO 28584 --- [main] c.e.imageupload.ImageuploadApplication   : Started ImageuploadApplication in 5.209 seconds (JVM running for 5.751)
+2022-12-28 11:24:51.885  INFO 28584 --- [http-nio-4534-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-28 11:24:51.886  INFO 28584 --- [http-nio-4534-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-12-28 11:24:51.893  INFO 28584 --- [http-nio-4534-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-12-28 11:24:51.998  WARN 28584 --- [http-nio-4534-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.multipart.support.MissingServletRequestPartException: Required request part 'file' is not present]
+2022-12-28 11:49:51.938  INFO 28584 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-28 11:49:51.956  INFO 28584 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : Image - Shutdown initiated...
+2022-12-28 11:49:52.179  INFO 28584 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : Image - Shutdown completed.
+2022-12-28 12:09:01.251  INFO 37340 --- [main] c.e.i.ImageuploadApplicationTests        : Starting ImageuploadApplicationTests using Java 19 on CA-AdityaM with PID 37340 (started by CA-User in D:\NGPay\Task\imageuploadDB)
+2022-12-28 12:09:01.252  INFO 37340 --- [main] c.e.i.ImageuploadApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2022-12-28 12:09:02.016  INFO 37340 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-28 12:09:02.076  INFO 37340 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48 ms. Found 1 JPA repository interfaces.
+2022-12-28 12:09:02.824  INFO 37340 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-28 12:09:02.911  INFO 37340 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2022-12-28 12:09:03.087  INFO 37340 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-28 12:09:03.265  INFO 37340 --- [main] com.zaxxer.hikari.HikariDataSource       : Image - Starting...
+2022-12-28 12:09:03.642  INFO 37340 --- [main] com.zaxxer.hikari.HikariDataSource       : Image - Start completed.
+2022-12-28 12:09:03.681  INFO 37340 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-12-28 12:09:04.545  INFO 37340 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-28 12:09:04.555  INFO 37340 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-28 12:09:05.295  WARN 37340 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-28 12:09:06.094  INFO 37340 --- [main] c.e.i.ImageuploadApplicationTests        : Started ImageuploadApplicationTests in 5.183 seconds (JVM running for 6.246)
+2022-12-28 12:09:06.418  INFO 37340 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-28 12:09:06.420  INFO 37340 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : Image - Shutdown initiated...
+2022-12-28 12:09:06.684  INFO 37340 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : Image - Shutdown completed.
+2022-12-28 12:09:24.996  INFO 29616 --- [main] c.e.imageupload.ImageuploadApplication   : Starting ImageuploadApplication v0.0.1-SNAPSHOT using Java 19 on CA-AdityaM with PID 29616 (D:\NGPay\Task\imageuploadDB\target\imageupload-0.0.1-SNAPSHOT.jar started by CA-User in D:\NGPay\Task\imageuploadDB)
+2022-12-28 12:09:25.000  INFO 29616 --- [main] c.e.imageupload.ImageuploadApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-12-28 12:09:25.714  INFO 29616 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-28 12:09:25.790  INFO 29616 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 56 ms. Found 1 JPA repository interfaces.
+2022-12-28 12:09:26.613  INFO 29616 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 4534 (http)
+2022-12-28 12:09:26.625  INFO 29616 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-28 12:09:26.625  INFO 29616 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.70]
+2022-12-28 12:09:26.699  INFO 29616 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-28 12:09:26.700  INFO 29616 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1626 ms
+2022-12-28 12:09:26.940  INFO 29616 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-28 12:09:26.997  INFO 29616 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2022-12-28 12:09:27.183  INFO 29616 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-28 12:09:27.302  INFO 29616 --- [main] com.zaxxer.hikari.HikariDataSource       : Image - Starting...
+2022-12-28 12:09:27.697  INFO 29616 --- [main] com.zaxxer.hikari.HikariDataSource       : Image - Start completed.
+2022-12-28 12:09:27.727  INFO 29616 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-12-28 12:09:28.468  INFO 29616 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-28 12:09:28.476  INFO 29616 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-28 12:09:28.878  WARN 29616 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-28 12:09:29.372  INFO 29616 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 4534 (http) with context path ''
+2022-12-28 12:09:29.390  INFO 29616 --- [main] c.e.imageupload.ImageuploadApplication   : Started ImageuploadApplication in 5.076 seconds (JVM running for 5.643)
+2022-12-28 12:12:25.251  INFO 29616 --- [http-nio-4534-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-28 12:12:25.252  INFO 29616 --- [http-nio-4534-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-12-28 12:12:25.253  INFO 29616 --- [http-nio-4534-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-12-28 12:12:25.353  WARN 29616 --- [http-nio-4534-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.multipart.support.MissingServletRequestPartException: Required request part 'file' is not present]
+2022-12-28 12:12:58.813  WARN 29616 --- [http-nio-4534-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.multipart.support.MissingServletRequestPartException: Required request part 'file' is not present]
